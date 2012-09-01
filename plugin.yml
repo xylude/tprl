@@ -1,0 +1,14 @@
+name: TPRL
+main: com.craftmoar.tprl.Tprl
+version: 1
+commands:
+    tprl:
+        description: Teleport player to random location
+        usage: /tprl
+        permission: tprl.Tprl
+        permission-message: You don't have permission for this command.
+permissions:
+    tprl.*:
+        description: Gives access to all commands
+        children:
+            tprl.tprl: true
